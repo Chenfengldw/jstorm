@@ -157,7 +157,8 @@
     <module>jstorm-utility/jstorm-flux</module>
     <module>jstorm-utility/jstorm-elasticsearch</module>
     <module>jstorm-on-yarn</module>
-    <module>jstorm-hbase-metrics-plugin</module>
+    <!--<module>jstorm-hbase-metrics-plugin</module>
+    -->
     <module>jstorm-hdfs</module>
   </modules>
 
@@ -272,7 +273,7 @@
     <repository>
       <id>nexus</id>
       <name>local private nexus</name>
-      <url>http://maven.oschina.net/content/groups/public/</url>
+      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
